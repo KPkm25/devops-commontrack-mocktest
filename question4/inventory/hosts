@@ -1,0 +1,6 @@
+[webservers]
+server1 ansible_host=192.168.153.133 ansible_user=worker2
+server2 ansible_host=192.168.153.132 ansible_user=worker3
+
+[webservers:vars]
+env=staging
